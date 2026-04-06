@@ -46,7 +46,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+.menu-controls {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-controls button {
+    background-color: gold;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+    transition: transform 0.15s ease;
+}
+
+.menu-controls button:hover {
+    transform: scale(1.05);
 }
 
 .menu-time h2:nth-child(2),
